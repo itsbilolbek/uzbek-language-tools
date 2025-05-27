@@ -2,7 +2,7 @@ import polib, re, argparse
 
 def normalize_apostrophes(po_file_path):
     """
-    Normalize apostrophes in a .po file to use the standard single quote character (').
+    Normalize apostrophes in a .po file to use ʻ (U+02BB) for o' and g', as well as ʼ (U+02BC) for "tutuq belgisi".
     
     Args:
         po_file_path (str): The path to the .po file.
